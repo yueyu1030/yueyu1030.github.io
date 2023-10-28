@@ -18,7 +18,6 @@ nav: true
 
 - **[Oct. 2023]**: NeurIPS Scholar Award
 - **[Nov. 2022]**: Best Paper Award (Top 2 over all submissions), Machine Learning for Health
-- **[Nov. 2022]**: Best Paper Award (Top 2 over all submissions), Machine Learning for Health
 - **[Aug. 2020]**: ACM SIGKDD Student Registration Award, NSF & SIGKDD
 - **[July 2019]**: Excellent Graduate, Tsinghua University & Beijing City (Top 2% over 3292 graduate students)
 
