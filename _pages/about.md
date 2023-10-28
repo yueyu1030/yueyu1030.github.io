@@ -1,26 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://cse.gatech.edu/">School of CSE, Georgia Institute of Technology</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: image.jpg
+  img_desc: Taken in Anchorage, Alsaka
+  address: >
+    <p>Room E1317, CODA Building</p>
+    <p>756 W Peachtree St NW, Atlanta, GA 30308</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+education: true  # includes a list of news items
+work: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello World! I am a 5th year PhD student at School of Computational Science and Engineering, [Georgia Institute of Technology](https://gatech.edu/). My advisor is [Prof. Chao Zhang](http://chaozhang.org), and I am mainly working on the intersection of pretrained language models and data-centric AI under his guidance.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before joining Georgia Tech, I obtained my bachelor's degree (with honors) from the Department of Electronic Engineering, [Tsinghua University](https://www.tsinghua.edu.cn/en/) in 2019, where I have also worked under the supervision of [Prof. Yong Li](http://fi.ee.tsinghua.edu.cn/~liyong/) in Tsinghua University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Feel free to drop me an email (`yueyu at gatech dot edu`) if you have any questions about my research, or general discussions about NLP.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**<span style="color:red">I am actively seeking industrial R&D opportunities, as well as Postdoctoral positions, beginning in 2024. I am happy to engage in discussions regarding potential opportunities!</span>**
+
