@@ -438,6 +438,7 @@ footer.sticky-bottom {
         // margin-right: -150pt;
       }
       .author {
+        color: var(--global-text-color-light);
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {

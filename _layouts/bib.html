@@ -16,10 +16,9 @@
     {% if entry.type == "thesis" %}
     {{reference}}
     {% else %}
-    <div class="title"><font color="#283747"><b>{{entry.title}}</b></font>
+    <div class="title"><b>{{entry.title}}</b>
     </div>
     <div class="author">
-      <font color="#85929E">
       {% for author in entry.author_array %}
       {% assign author_is_self = false %}
       {% if author.first == "Yue"%}
@@ -42,14 +41,14 @@
 
       {% if forloop.length == 1 %}
       {% if author_is_self %}
-      <b>{{author.first}} {{author.last}}</b>
+      <em>{{author.first}} {{author.last}}</em>
       {% else %}
       {{author.first}} {{author.last}}
       {% endif %}
       {% else %}
       {% unless forloop.last %}
       {% if author_is_self %}
-      <font color="black"><b>{{author.first}} {{author.last}}</b></font>,
+      <em>{{author.first}} {{author.last}}</em>,
       {% else %}
       {% if coauthor_url %}
       <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
@@ -70,7 +69,6 @@
       {% endunless %}
       {% endif %}
       {% endfor %}
-    </font>
     </div>
 
     <div class="periodical">
