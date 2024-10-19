@@ -24,5 +24,5 @@ Before joining Georgia Tech, I obtained my bachelor's degree (with honors) from 
 
 Feel free to drop me an email (`yueyu at gatech dot edu`) if you have any questions about my research, or general discussions about NLP.
 
-**<span style="color:red">I will graduate soon and am on the industry job market now. Feel free to reach out if there is a good fit!</span>**
+<!-- **<span style="color:red">I will graduate soon and am on the industry job market now. Feel free to reach out if there is a good fit!</span>** -->
 
