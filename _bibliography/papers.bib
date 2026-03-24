@@ -1,4 +1,87 @@
+@inproceedings{
+xu2026medagentgym,
+title={MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science},
+author={Ran Xu and Yuchen Zhuang and Yishan Zhong and Yue Yu and Zifeng Wang and Xiangru Tang and Hang Wu and May Dongmei Wang and Peifeng Ruan and Donghan Yang and Tao Wang and Guanghua Xiao and Xin Liu and Carl Yang and Yang Xie and Wenqi Shi},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=jHDZEUgS4r},
+abbr={ICLR},
+code={https://github.com/wshi83/MedAgentGym},
+pdf={https://openreview.net/forum?id=jHDZEUgS4r},
+arxiv={2506.04405},
+oral={true}
+}
 
+
+
+@inproceedings{yu-etal-2025-self,
+    title = "Self-Generated Critiques Boost Reward Modeling for Language Models",
+    author = "Yu, Yue  and
+      Chen, Zhengxing  and
+      Zhang, Aston  and
+      Tan, Liang  and
+      Zhu, Chenguang  and
+      Pang, Richard Yuanzhe  and
+      Qian, Yundi  and
+      Wang, Xuewei  and
+      Gururangan, Suchin  and
+      Zhang, Chao  and
+      Kambadur, Melanie  and
+      Mahajan, Dhruv  and
+      Hou, Rui",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.573/",
+    doi = "10.18653/v1/2025.naacl-long.573",
+    pages = "11499--11514",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Reward modeling is crucial for aligning large language models (LLMs) with human preferences, especially in reinforcement learning from human feedback (RLHF). However, current reward models mainly produce scalar scores and struggle to incorporate critiques in a natural language format. We hypothesize that predicting both critiques and the scalar reward would improve reward modeling ability. Motivated by this, we propose Critic-RM, a framework that improves reward models using self-generated critiques without extra supervision. Critic-RM employs a two-stage process: generating and filtering high-quality critiques, followed by joint fine-tuning on reward prediction and critique generation. Experiments across benchmarks show that Critic-RM improves reward modeling accuracy by 3.7{\%}-7.3{\%} compared to standard reward models and LLM judges, demonstrating strong performance and data efficiency. Additional studies further validate the effectiveness of the generated critiques.",
+    abbr={NAACL},
+    arxiv={2411.16646},
+    selected={true},
+}
+
+
+@inproceedings{
+xu2025acesearcher,
+title={AceSearcher: Bootstrapping Reasoning and Search for {LLM}s via Reinforced Self-Play},
+author={Ran Xu and Yuchen Zhuang and Zihan Dong and Ruiyu Wang and Yue Yu and Joyce C. Ho and Linjun Zhang and Haoyu Wang and Wenqi Shi and Carl Yang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+pdf={https://openreview.net/forum?id=jSgCM0uZn3},
+arxiv={2509.24193},
+abbr={NeurIPS},
+}
+
+@article{he2025advancedif,
+  title={Advancedif: Rubric-based benchmarking and reinforcement learning for advancing llm instruction following},
+  author={He, Yun and Li, Wenzhe and Zhang, Hejia and ... and Hunter Lang and Yue Yu and Yundi Qian and ... and Manaal Faruqui},
+  journal={arXiv preprint arXiv:2511.10507},
+  arxiv={2511.10507},  
+  year={2025},
+  pdf={https://arxiv.org/pdf/2511.10507},
+  code={https://huggingface.co/datasets/facebook/AdvancedIF}
+}
+
+
+@inproceedings{yu2024rankrag,
+  title={Rankrag: Unifying context ranking with retrieval-augmented generation in llms},
+  author={Yu, Yue and Ping, Wei and Liu, Zihan and Wang, Boxin and You, Jiaxuan and Zhang, Chao and Shoeybi, Mohammad and Catanzaro, Bryan},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={121156--121184},
+  year={2024},
+  abbr={NeurIPS},
+  arxiv={2407.02485},
+  pdf={https://openreview.net/forum?id=S1fc92uemC},
+  selected={true},
+}
 
 @inproceedings{
 yu2024explanationaware,
@@ -8,6 +91,7 @@ booktitle={The 62nd Annual Meeting of the Association for Computational Linguist
 year={2024},
 arxiv={2311.07099},
 abbr={ACL},
+url={https://arxiv.org/pdf/2311.07099}
 }
 
 @inproceedings{
@@ -20,29 +104,6 @@ abbr={ACL},
 arxiv={2402.13542},
 url={https://openreview.net/forum?id=ciguBePlw5}
 }
-
-@inproceedings{
-xu2024ramehr,
-title={{RAM}-{EHR}: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records},
-author={Ran Xu* and Wenqi Shi* and Yue Yu and Yuchen Zhuang and Bowen Jin and May D. Wang and Joyce C. Ho and Carl Yang},
-booktitle={The 62nd Annual Meeting of the Association for Computational Linguistics},
-abbr={ACL},
-arxiv={2403.00815},
-year={2024},
-}
-
-
-@inproceedings{
-xu2024knowledgeinfused,
-title={Knowledge-Infused Prompting: Assessing and Advancing Clinical Text Data Generation with Large Language Models},
-author={Ran Xu and Hejie Cui and Yue Yu and Xuan Kan and Wenqi Shi and Yuchen Zhuang and May D. Wang and Wei Jin and Joyce C. Ho and Carl Yang},
-booktitle={The 62nd Annual Meeting of the Association for Computational Linguistics},
-abbr={ACL Findings},
-year={2024},
-arxiv={2311.00287},
-code={https://github.com/ritaranx/ClinGen}
-}
-
 
 @inproceedings{yu2023large,
 title={Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias},
@@ -88,7 +149,6 @@ code={https://github.com/night-chen/ToolQA},
     doi = "10.18653/v1/2023.acl-long.141",
     code = {https://github.com/yueyu1030/Patron},
     pages = "2499--2521",
-    selected={true},
     abstract = "We present PATRON, a prompt-based data selection method for pre-trained language model fine-tuning under cold-start scenarios, i.e., no initial labeled data are available. In PATRON, we design (1) a prompt-based uncertainty propagation approach to estimate the importance of data points and (2) a partition-then-rewrite (PTR) strategy to promote sample diversity when querying for annotations. Experiments on six text classification datasets show that PATRON outperforms the strongest cold-start data selection baselines by up to 6.9{\%}. Besides, with 128 labels only, PATRON achieves 91.0{\%} and 92.1{\%} of the fully supervised performance based on vanilla fine-tuning and prompt-based learning respectively. Our implementation of PATRON will be published upon acceptance.",
 }
 
@@ -152,7 +212,6 @@ code={https://github.com/night-chen/ToolQA},
     booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     month = jul,
     year = "2022",
-    selected={true},
     address = "Seattle, United States",
     publisher = "Association for Computational Linguistics",
     pdf = 	 {https://aclanthology.org/2022.naacl-main.102.pdf},
